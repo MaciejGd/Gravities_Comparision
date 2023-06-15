@@ -10,6 +10,8 @@ physicObject::physicObject(float radius, sf::Vector2f starting_pos, float accele
     this->radius = radius;
     this->pos = starting_pos;
     this->acceleration = acceleration;
+    this->velocity = 0.0f;
+    this->slowing_down = 0.0f;
 }
 
 physicObject::~physicObject()

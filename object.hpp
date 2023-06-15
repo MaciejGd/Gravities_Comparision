@@ -3,8 +3,6 @@
 
 class physicObject
 {
-    float grav = 10.f;
-    float mass = 0.1;
     float velocity;
     float acceleration;
     float slowing_down;
