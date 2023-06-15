@@ -8,7 +8,7 @@ class physicObject
     float velocity;
     float acceleration;
     float slowing_down;
-    int radius;
+    float radius;
     sf::Vector2f pos;
 
     public:
